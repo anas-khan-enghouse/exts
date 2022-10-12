@@ -2,7 +2,7 @@ import "https://cdn.socket.io/4.5.0/socket.io.min.js";
 
 (function ({ InitializePlugin }) {
   InitializePlugin(
-    "vidyoroom-extension-event-listener",
+    "vidyoroom-extension-web-plugin",
     ["PubSub", "Interact"],
     function (err, data) {
       if (err) {
