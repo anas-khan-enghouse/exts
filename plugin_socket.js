@@ -1,4 +1,4 @@
-import io from "https://cdn.socket.io/4.5.0/socket.io.min.js";
+import "https://cdn.socket.io/4.5.0/socket.io.min.js";
 
 (function ({ InitializePlugin }) {
   InitializePlugin(
