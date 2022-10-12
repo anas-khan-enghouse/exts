@@ -12,7 +12,7 @@ import "https://cdn.socket.io/4.5.0/socket.io.min.js";
       const { userDetails, modules } = data;
       const { PubSub, Interact } = modules;
 
-      const WSURL = "http://localhost:4000"; 
+      const WSURL = "https://qa-vrpms-api.vidyo.us.rd.eilab.biz"; 
       const socket = io(WSURL, {
         transports: ["websocket"],
         auth: { userPortalId: "1554773" },
