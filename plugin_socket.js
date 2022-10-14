@@ -7,7 +7,7 @@ document.getElementsByTagName("head")[0].appendChild(script);
 
 (function ({ InitializePlugin }) {
   InitializePlugin(
-    "vidyoroom-extension-web-plugin",
+    "plugin_socket",
     ["PubSub", "Interact"],
     function (err, data) {
       if (err) {
