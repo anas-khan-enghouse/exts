@@ -1,5 +1,12 @@
 import "https://cdn.socket.io/4.5.0/socket.io.min.js";
 
+
+var script = document.createElement("script");
+script.src = "https://cdn.socket.io/4.5.0/socket.io.min.js";
+script.type = "text/javascript";
+script.id = "https://cdn.socket.io/4.5.0/socket.io.min.js";
+document.getElementsByTagName("head")[0].appendChild(script);
+
 (function ({ InitializePlugin }) {
   InitializePlugin(
     "vidyoroom-extension-web-plugin",
