@@ -70,25 +70,7 @@
 
 
       })
-     Interact.MuteMicrophoneAsync(true).then(response => {
-          alert("Microphone Muted")
-
-      }).catch(error => {
-          console.log(error)
-
-      })
-
-     setTimeout(function () {
-
-          Interact.MuteMicrophoneAsync(false).then(response => {
-              alert("Microphone Unmuted")
-
-          }).catch(error => {
-              console.log(error)
-
-          })
-
-      }, 60000)
+     
 
       // TODO Plugin code goes here
     
